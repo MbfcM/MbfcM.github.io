@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Filipe Carvalho - Portfolio</title>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        
+    </head>
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-bg3 text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-bg text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
+                    Menu
+                    <svg class="svg-inline--fa fa-bars" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg><!-- <i class="fas fa-bars"></i> Font Awesome fontawesome.com -->
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="text-center navbar-nav ms-center">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- About Section-->
+        <section class="page-section bg-bg text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <br><br><br><h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Picture and Text-->
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                    <img class="text-center" src="img/profile.png" alt="profile-pic">
+                    <br><br><br><p style="font-size: 21px;" class="text-justify">Hi! My name is Filipe, I'm <span id="age"></span> years old, I'm portuguese and I'm currently living in Portugal.
+                        For the last 5 years I’ve studied on IPCA where I took 2 courses. The first one, was a Higher Professional Technical degree in Mobile Applications (2018 - 2020), and the second, was a bachelor's degree in Digital Games Development Engineering (2020 - 2023). During this last period I was able to learn a bit about the different game development processes and also had the opportunity to work with great teams where together we created some really nice games (you can find some of them down below, in the portfolio section).
+                         At this moment, I'm looking for a job in the video game industry. While I search, my plans are: develop more projects to improve my skills (as a game developer), participate in more events (such as gamejams), and maybe do an english course to improve my communication skills. 
+                         To finish I just want to thank you for taking some time to see my page, and if you think I can help you anyway, just reach me out :).</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section-->
+        <section class="page-section bg-bg3  portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1" onclick="getModal(1)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/SeacrawlersImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2" onclick="getModal(2)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/ForgeImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3" onclick="getModal(3)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/OlympusImpostorImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4" onclick="getModal(4)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/AstroManImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5" onclick="getModal(5)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/HighwayToHellImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6" onclick="getModal(6)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/Mind.MeImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 7-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7" onclick="getModal(7)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/CreativeGameImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 8-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8" onclick="getModal(8)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/GoldMinerImg.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 9-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9" onclick="getModal(9)">
+                            <div class="portfolio-item-caption2 d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><img class="text-center" src="icon/search.png"></div>
+                            </div>
+                            <img class="img-fluid" src="portfolio/QuizImg.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
+                <!-- MORE PROJECTS
+                <div class="text-center container">
+                <br><br><br><a style="font-size: 21px;" class="text-uppercase text-white text-center" href="MoreProjects.html">More Projects</a>
+                -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section-->
+        <section class="page-section bg-bg" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="text-center mb-0">
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:bfmmdc96@hotmail.com"><i class="fa fa-envelope"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/filipe-c-9103911b8/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <!--<a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/filipe-c-9103911b8/?original_referer="><i class="fab fa-fw fa-linkedin-in"></i></a>-->
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/MbfcM"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/@FlpC."><i class="fab fa-fw fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(1)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase text-white mb-0">Seacrawlers</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div >
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer1" class="mm" src="https://www.youtube.com/embed/jhmkSHSVibw?enablejsapi=1" title="Seacrawlers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Seacrawlers is an action-adventure role-playing game that puts players in the role of a fearless pirate looking to become captain of the Seacrawlers. In this vast and dangerous world, full of secrets, the player will dive into an exciting journey of 30 days, where he must take the opportunity to explore, complete quests and kill enemies in order to get stronger. He should also try not to die or use his resting ability, as each time one of these happens, the player ends up having less time to prepare for the final challenge. As the player progresses, he will be able to unlock new skills that will be very important during his journey. Once the time is up, the player must win his last challenge to be named captain.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a final project for the Applied Games Engineering and Development course. It was developed by Afonso Abreu, Filipe Carvalho, Rafael Silva, (ABR Games), and with special participation of Vitor Mendes, Diogo Pinheira, Jorge Mourão, Margarida de Mira (IPCB), working in the Music/SFX. It was developed between March and June 2023, 2023, using C# and Unity.</p>
+                                    <!--
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Main character: Implement Movement, Life, Damage (give and receive), Level Upgrade, Select class, Animation (movement, damage) <br>  Others: Implement Xp system,Abilitys, Gold system, camera follow and free camera, days countdown system, day night system, implemented water, compass, shop, loading system between scenes, minimap, water monsters, create military camps, win and lose condition, settings (audio), clean code, bug fixes, boat movement holding click, implemented sounds, implemented plot, implemented some npcs, Implement UI, natural disasters (not implemented final version)</p>
+                                    -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(1)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(2)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Forge - In search of the Ancient Gold</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer2" class="mm" src="https://www.youtube.com/embed/hlH-zvlYha4?enablejsapi=1" title="Forge - In search of the Ancient Gold" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Forge - In search of the Ancient Gold is a first person game with low poly style (art) and which the genre is fantasy/roguelike. Here you play as Ron, an adventurer who's looking for the Ancient Gold. To find it you will need crafting the best weapons (collect materials as much you can), kill enemies and getting all the flames. In the end, be sure that you don0tlet the dragon win.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the Applied Games Engineering and Development course. It was developed by Afonso Abreu, Filipe Carvalho, Rafael Silva, (ABR Games), between October 2022 and January 2023, using C# and Unity.</p>
+                                    <!--
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Implement simple enemies life, behaviour (patrol, pursuit, attack) and unique skills; Implement inventory (pick up, store, drop, use item); Implement Buffs (life, increase damage and speed) and Debuffs (stun, poison, burn, decrease damage), Implement map; Implement player life, Implement and test level1, implement transition between scenes, Implement throwables; Implement breakable objects; Implement advance level system; Create tutorial; Clean code; Bug fixes; Organize Project;Receipes book; Compose levels with objects.</p>
+                                    -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(2)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(3)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Olympus Impostor</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer3" class="mm" src="https://www.youtube.com/embed/9rZSAxP4ONk?enablejsapi=1" title="Olympus Impostor" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Olympus Impostor is a game that puts you in the shoes of a god (a good or a bad one). If you play as a good god you need to upgrade the things so the happiness of the people grows and in the meetings you need to try to discover who is the impostor god. If the hapiness achives the maximum or if you kick the impostor you win. If you're playing as a bad god you can upgrade and destroy the things and your objective is getting the happiness to the 0% or kick all good gods.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the IPCA Game Jam 2023. It was developed by Bernardo, Fábio, Filipe, Marco, Nello, (Desclassificados), between 26 May and 28 May, 2023, using C# and Unity.</p>
+                                    <!--
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Animate trees, Implement wind, Animate god cloud, Implement de upgrade and destroy system, Create the prefabs of characters and builds,Implement timer per round, Implement zoom in/out.</p>
+                                    -->
+                                    <a class="text-white" style="font-size: 21px;" href="https://brc-ipcagj.itch.io/olympus-impostor">FIND IT HERE</a>
+                                    <br><br>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(3)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(4)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Astro Man</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer4" class="mm" src="https://www.youtube.com/embed/sBeXJvhrBow?enablejsapi=1" title="AstroMan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Astro Man is a first-person game that puts you in the shoes of an astronaut on the moon. You need to collect all the red orbs to get the energy to go back to earth. The purple orbs will help you against the enemies and the black orbs will make it harder to collect the orbs. In this project the objective was create different shaders that work nicely in the game, and for this we made one shader which is the terrain, other shader are the orbs, and the last shaders were made with post-processing and are a vignette and drunk effect.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the Applied Games Engineering and Development course. It was developed by Afonso Abreu, Filipe Carvalho, Rafael Silva (ABR Games), in June 2023, using C# and Unity.</p>
+                                    <!--
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Implement the nightvision and drunk shaders.</p>
+                                    -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(4)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(5)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Highway To Hell</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer5" class="mm" src="https://www.youtube.com/embed/yvlSKuUOsfo?enablejsapi=1" title="HighwayToHell" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Highway To Hell is a arcade car game, where you race to save human race. You have 3 tracks, each one with specific objectives. When you complete the track with the pre-defined objectives you unlock the next track, and if you win all tracks you complete your mission, saving the human race.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the Applied Games Engineering and Development course. It was developed by Afonso Abreu, Filipe Carvalho, Rafael Silva (ABR Games), between March and June, 2022, using C# and Unity.</p>
+                                    <!--
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Implement the nitrous, Implement UI, Implement Minimap, Implement timers, Implement Camera and Implement objectives, Implement victory, loose and pause menus and systems.</p>
+                                    -->
+                                    <a class="text-white" style="font-size: 21px;" href="https://abr-games.itch.io/highway-to-hell">FIND IT HERE</a>
+                                    <br><br>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(5)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(6)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Mind.Me</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer6" class="mm" src="https://www.youtube.com/embed/qvEl91dj6Lc?enablejsapi=1" title="mind.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Mind.me is a 2D Platform game, where you play as creature who suffers from social anxiety. In the game you're gonna pass through experiences that people suffers in real world, and the objective during this journey is trying to pass the message to the player that everything gonna be ok, he's not alone, this problem really exist, and try to help lead with it.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the Game Changing Games SAP. It was developed by André, Anna, Filipe, Isabella, Jorge, (Angry Vegetables), during the October month, 2021, using C# and Unity.</p>
+                                    <!--
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Implement and animate the bonfire, Implement the enemies and the end game.</p>
+                                    -->
+                                    <button  class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(6)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 7-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(7)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Creative Game</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer7" class="mm" src="https://www.youtube.com/embed/x5hGx4mnN-c?enablejsapi=1" title="CreativeGame" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Creative Game is a 2D Platform game, where you play as Santa Claus and you need to collect all the coins each level so you can advance to the next, until the end. You need to becarefull with the obstacles and the enemies, this last, if you want to kill them, you will need to collect the gift so you can activate your shoot ability. Finally to advance to the next level you need to find and enter in your home..</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the Applied Games Engineering and Development course. It was developed by Filipe Carvalho, Paulo Macedo and Rui Cardoso, between May and June, 2021, using C#, Monogame and Hyperlap2d.</p>
+                                    <!--
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Create the levels, Implement the enemies, Implement UI, Implement win and game over, Implement coins, gifts, lifes, sounds, pause, timer, snowball effect, mute/unmute and player death.</p>
+                                    -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(7)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 8-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(8)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Gold Miner</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer8" class="mm" src="https://www.youtube.com/embed/C6xtlZ7v72Y?enablejsapi=1" title="GoldMiner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Gold Miner is a 2D game, where you play as a Miner, who needs to collect all the diamonds, to advance to the next level, until the end. You need to becarefull because the TNT can kill you, but can also destroy the diamonds, and in this last case, if it happens you will need to start afrom the beggining.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the Applied Games Engineering and Development course. It was developed by Filipe Carvalho, Paulo Macedo and Rui Cardoso, between March and April, 2021, using C# and Monogame.</p>
+                                    <!-- 
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Create the levels, Implement the UI, Implement TNT and Diamonds, Implement box fall, Implement walls explosion, Implemente restart and Implement victory and game over.</p>
+                                    -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(8)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 9-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal9" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content bg-bg3">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close" onclick="closeModal(9)"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-12">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0 text-white">Quiz</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <div class="video-container">
+                                    <iframe id="videoPlayer9" class="mm" src="https://www.youtube.com/embed/-pQepOOJngs?enablejsapi=1" title="Quiz" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Description:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">Quiz is a web game where you have one question and four answers. Your objective is to choose the right answer as many times as you can, so you can have a better score in the final.</p>
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Developed:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">This game was created as a project for the Mobile Applications course. It was developed by Filipe Carvalho, between October 2019 and January 2020, using Html, CSS and JS.</p>
+                                    <!-- 
+                                    <br><p class="mb-4 text-white text-center" style="font-size: 21px;">Tasks:</p>
+                                    <p class="mb-4 text-white text-justify" style="font-size: 21px;">All</p>
+                                    -->
+                                    <button class="btn btn-primary" data-bs-dismiss="modal" onclick="closeModal(9)">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <script>
+            var clicked = null;
+            var modalNumber = null;
+            var players = {};
+        
+            function closeModal() {
+                // Pause the video if it's a YouTube iframe
+                if (clicked && players[modalNumber]) {
+                    players[modalNumber].pauseVideo();
+                }
+        
+                // Close the modal
+                if (modalNumber !== null) {
+                    var modal = document.getElementById("portfolioModal" + modalNumber);
+                    modal.style.display = "none";
+                }
+            }
+        
+            function getModal(mN) {
+                // Store the clicked YouTube iframe and modal number
+                clicked = document.getElementById("videoPlayer" + mN);
+                modalNumber = mN;
+        
+                if (clicked && !players[mN]) {
+                    players[mN] = new YT.Player("videoPlayer" + mN, {
+                        events: {
+                            'onReady': onPlayerReady,
+                            // Add other event listeners if needed
+                        }
+                    });
+                }
+            }
+        
+            // Event listener for pressing the Escape key
+            document.addEventListener('keydown', function(event) {
+                if (event.key === 'Escape') {
+                    closeModal();
+                }
+            });
+        
+            // Event listener for clicking outside the modal
+            window.addEventListener('click', function(event) {
+                closeModal();
+            });
+        
+            function onPlayerReady(event) {
+                // You can add custom logic here when the player is ready
+            }
+        </script>
+        
+  
+        <script>  
+            var born = new Date("02-10-1996"); 
+            var today = new Date();                
+        
+            if(today.getMonth() > born.getMonth()) 
+                var age = today.getFullYear() - born.getFullYear();
+            else if (today.getMonth() < born.getMonth()) 
+                var age = (today.getFullYear() - born.getFullYear()) - 1;
+            else if (today.getMonth() == born.getMonth()) 
+                if(today.getDate() >=  born.getDate())
+                    var age = today.getFullYear() - born.getFullYear();
+                else
+                    var age = (today.getFullYear() - born.getFullYear()) - 1;
+        
+            document.getElementById("age").textContent = age;
+        </script>
+        
+        
+    </body>
+</html>
+
